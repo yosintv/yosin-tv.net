@@ -536,6 +536,27 @@ mobilemenu.classList.remove("active");
 $(document).ready(function(){$(".match-event .match-date").each(function(){var t=$(this),a=t.data("start"),e=t.data("gameends"),m=moment(a,"YYYY-MM-DD HH:mm:ssZ"),n=moment(e,"YYYY-MM-DD HH:mm:ssZ"),e=moment.utc().format("YYYY-MM-DD HH:mm:ssZ"),m=m.diff(e,"minutes"),e=n.diff(e,"minutes");switch(!0){case 60<m:var  d=moment.utc(a).toDate();t.parent().find("#match-hour").text(moment(d).format("LT")),t.parent().find(".match-date").addClass("not-start"),t.parents(".match-event").addClass("notstart");break;case 0<m:d=moment.utc(a).toDate(),t.parent().find("#match-hour").text(moment(d).format("LT")),t.parent().find(".match-date").addClass("soon"),t.parents(".match-event").addClass("ch-soon");break;case 0<e:d=moment.utc(a).toDate(),t.parent().find(".match-date").html("Live Now").addClass("live"),t.parent().find("#match-hour").text(moment(d).format("LT")),t.parents(".match-event").addClass("ch-live");break;default:d=moment.utc(a).toDate(),t.parent().find("#match-hour").text(moment(d).format("LT")),t.parent().find(".match-date").html("Match End").addClass("end"),t.parents(".match-event").addClass("ch-end")}})});$(document).ready(function(){$(".match-post .matchs-date").each(function(){var t=$(this),a=t.data("start"),e=t.data("gameends"),m=moment(a,"YYYY-MM-DD HH:mm:ssZ"),n=moment(e,"YYYY-MM-DD HH:mm:ssZ"),e=moment.utc().format("YYYY-MM-DD HH:mm:ssZ"),m=m.diff(e,"minutes"),e=n.diff(e,"minutes");switch(!0){case 30<m:var d=moment.utc(a).toDate();t.parent().find("#matchs-hour").text(moment(d).format("LT")),t.parent().find(".matchs-date").html("did not start ").addClass("not-start"),t.parents(".match-post").addClass("not-start");break;case 0<m:d=moment.utc(a).toDate(),t.parent().find("#matchs-hour").text(moment(d).format("LT")),t.parent().find(".matchs-date").html("after a while").addClass("son"),t.parents(".match-post").addClass("ch-son");break;case 0<e:d=moment.utc(a).toDate(),t.parent().find(".matchs-date").html("Live Now").addClass("lives"),t.parent().find("#matchs-hour").text(moment(d).format("LT")),t.parents(".match-post").addClass("ch-lives");break;default:d=moment.utc(a).toDate(),t.parent().find("#matchs-hour").text(moment(d).format("LT")),t.parent().find(".matchs-date").html("match score").addClass("ends"),t.parents(".match-post").addClass("ch-ends")}})});function rdmode(){localStorage.setItem("mode","rdmode"===localStorage.getItem("mode")?"light":"rdmode"),"rdmode"===localStorage.getItem("mode")?document.querySelector("body").classList.add("Night"):document.querySelector("body").classList.remove("Night")};!function(s){function t(){$("img["+s+"]").each(function(){var t=this.getBoundingClientRect().top-$("body")[0].getBoundingClientRect().top;if(window.pageYOffset+window.innerHeight>t){var e=Math.ceil(this.parentNode.offsetWidth),i=Math.ceil(this.parentNode.offsetHeight),n=function(t,e,i){try{t=-1!==t.indexOf("img.youtube.com")||-1!==t.indexOf("ytimg.com")?t.replace("/default","/mqdefault"):t.replace(/\/(s72\-c|s40\-c|s1600\-c|s220|s113|w1600)\//,"/w"+parseInt(e)+"-h"+i+"-p-k-nu-rw-e90/")}finally{return t}}(this.getAttribute(s),e,i);this.setAttribute("src",n),this.removeAttribute(s),$(this).parent().removeClass("PLHolder"),$(this).parent().addClass("")}})}window.addEventListener("load",t),document.addEventListener("scroll",t)}("data-img");
 //]]></script>
 
+
+<script type='text/javascript'>
+$(document).ready(function() {$(&#39;img#closed&#39;).click(function(){$(&#39;#bl_banner&#39;).hide(90);});});
+</script>
+<div id='fixedban' style='width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:999;-webkit-transform:translateZ(0);'>
+<div>
+<a id='close-fixedban' onclick='document.getElementById(&quot;fixedban&quot;).style.display = &quot;none&quot;;' style='cursor:pointer;'><img alt='close' src='https://cdn.jsdelivr.net/gh/yosintv/yosintv/football/close.gif' style='vertical-align:middle;' title='close button'/></a> 
+</div>
+<div style='text-align:center;display:block;max-width:800px;height:auto;overflow:hidden;margin:auto'>
+<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5525538810839147'/>
+<!-- Square Adss -->
+<ins class='adsbygoogle' data-ad-client='ca-pub-5525538810839147' data-ad-slot='2647036910' style='display:inline-block;width:300px;height:250px'/>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+</div>
+
+	
+
 <!-- BEGIN: Powered by Supercounters.com -->
 <center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script><script type="text/javascript">sc_online_i(1670778,"ffffff","e61c1c");</script><br><noscript><a href="https://www.supercounters.com/">free online counter</a></noscript>
 </center>
