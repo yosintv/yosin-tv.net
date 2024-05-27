@@ -1,0 +1,9 @@
+User-agent: Media partners-Google
+Allow: /
+User-agent: Googlebot
+Allow: /ads.txt
+User-agent: *
+Disallow: /search
+Allow: /
+
+Sitemap: https://www.yosin-tv.net/sitemap.xml
