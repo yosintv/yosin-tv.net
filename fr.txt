@@ -55,6 +55,8 @@ Predicted lineups are available for the match a few days in advance while the ac
 <input style="text-align: center;" class="MyButton" 
 onclick="window.location.href='https://yosintv2.github.io/tv/ads.html'" type="button" value="Refresh Links"/>
 </form></div><br/>
+<!-------- Link Starts----->
+
 
 
 
@@ -92,11 +94,11 @@ data-link="https://yosintv2.github.io/tv/ads.html" >
 <div class="livee-name"> Mob/PC  - TeamName </div></div>
 
 
+<div class="livee" data-link="https://yosintv2.github.io/ads/foot.html?id=https://v3.bestsolaris.com/solaris.php?postid=____ " >
+<div class="livee-name"> Link 2 - TeamName </div></div>
+
+
 <div class="livee" data-link="https://yosintv2.github.io/tv/ads.html" >
-<div class="livee-name"> Link 1 - TeamName </div></div>
-
-
-<div class="livee" data-link="https://yosintv2.github.io/ads/foot.html?id=https://v3.bestsolaris.com/solaris.php?postid=70394 " >
 <div class="livee-name"> Link 2 - TeamName </div></div>
 
 
