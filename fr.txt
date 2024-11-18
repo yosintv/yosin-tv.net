@@ -95,7 +95,7 @@ data-link="https://yosintv2.github.io/tv/ads.html" >
 
 
 <div class="livee" data-link="https://yosintv2.github.io/ads/foot.html?id=https://v3.bestsolaris.com/solaris.php?postid=____ " >
-<div class="livee-name"> Link 2 - TeamName </div></div>
+<div class="livee-name"> Link 1 - TeamName </div></div>
 
 
 <div class="livee" data-link="https://yosintv2.github.io/tv/ads.html" >
