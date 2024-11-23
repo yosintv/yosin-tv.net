@@ -81,8 +81,12 @@ data-link="https://yosintv2.github.io/tv/ads.html" >
 <div class="livee-name"> HD Live 2 - TeamName </div></div>
 
 
-<div class="livee" data-link="https://yosintv2.github.io/ads/foot.html?id=https://yosintv2.github.io/tv/midd.html?mid=____" >
+<div class="livee" data-link="https://yosintv2.github.io/ads/foot.html?id=https://v3.bestsolaris.com/solaris.php?postid=____" >
 <div class="livee-name"> HD Live 3 - TeamName </div></div>
+
+
+<div class="livee" data-link="https://yosintv2.github.io/ads/foot.html?id=https://yosintv2.github.io/tv/midd.html?mid=____" >
+<div class="livee-name"> HD Live 4 - TeamName </div></div>
 
 
 <div class="livee" 
